@@ -7,8 +7,19 @@ export default defineNuxtConfig({
       },
     },
   },
-  compatibilityDate: "2024-11-01",
+  compatibilityDate: "2025-01-14",
   devtools: { enabled: true },
   modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss"],
+  components: [
+    "~/components", // Default behavior for all components
+    {
+      path: "~/components/features/auth", // Explicitly include this folder
+      prefix: "Auth",
+    },
+    {
+      path: "~/components/base",
+      prefix: "Base",
+    },
+  ],
 });
 
