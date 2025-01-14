@@ -1,8 +1,8 @@
 <template>
-  <BaseCard class="bg-base-100 shadow-xl" title-class="text-primary">
+  <BaseCard class="bg-base-100 shadow-xl" title-class="text-secondary">
     <template #card-title>
-      <Icon name="line-md:login" />
-      Login
+      <Icon name="icon-park-outline:writing-fluently" />
+      Sign up
     </template>
     <form @submit.prevent="$emit('submit-form')">
       <!-- Email Field -->
@@ -37,8 +37,8 @@
 
       <!-- Submit Button -->
       <div class="form-control mt-6">
-        <BaseButton class="btn-primary" type="primary" @click="handleLogin">
-          Login
+        <BaseButton class="btn-secondary" type="primary" @click="handleSignup">
+          Signup
         </BaseButton>
       </div>
     </form>
@@ -49,7 +49,7 @@
 const email = ref("");
 const password = ref("");
 
-function handleLogin() {
+function handleSignup() {
   console.log(email.value, password.value);
 }
 </script>
