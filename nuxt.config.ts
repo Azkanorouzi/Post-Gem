@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
   compatibilityDate: "2025-01-14",
   devtools: { enabled: true },
-  modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxt/icon"],
+  modules: ["@pinia/nuxt", "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxtjs/supabase"],
   components: [
     "~/components", // Default behavior for all components
     {

@@ -45,9 +45,12 @@
   </BaseCard>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const email = ref("");
 const password = ref("");
+
+const storedEmail = useLocalStorage("email", "");
+const storedPassword = useLocalStorage("password", "");
 
 function handleSignup() {
   console.log(email.value, password.value);

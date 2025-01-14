@@ -1,4 +1,5 @@
 <template>
+  <AuthSuccessAlert>Success</AuthSuccessAlert>
   <BaseCard class="bg-base-100 shadow-xl" title-class="text-primary">
     <template #card-title>
       <Icon name="line-md:login" />
