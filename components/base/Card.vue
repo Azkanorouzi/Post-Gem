@@ -1,9 +1,9 @@
 <script setup lang="ts">
 interface Props {
-  type: "bordered" | "compact" | "normal" | "side";
-  bodyClass: string;
-  titleClass: string;
-  actionsClass: string;
+  type?: "bordered" | "compact" | "normal" | "side";
+  bodyClass?: string;
+  titleClass?: string;
+  actionsClass?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -25,7 +25,7 @@ const cardClass = computed(() => `card w-96 card-${props.type}`);
         :class="titleClass"
         v-if="$slots['card-title']"
       >
-        <slot name="title"> Title </slot>
+        <slot name="card-title"> Title </slot>
       </strong>
       <slot />
       <div
