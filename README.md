@@ -6,7 +6,7 @@ Welcome to this **Nuxt.js** project! 🚀 This project was created as a test of 
 
 ## 🚨 **Important Note**
 
-To run this project, you need to provide your own **Supabase credentials** or use the ones I have shared here. Without the credentials, the authentication and Supabase functionalities will not work. 🔑
+To run this project, you need to provide your own **Supabase credentials** or use the ones I have shared here. Without the credentials, the authentication and Supabase functionalities will not work. just copy the below credentials into your .env and you should be good to go!🔑
 
 ```txt
 SUPABASE_URL="https://frmviyhtjjoqpstcaiqa.supabase.co"
