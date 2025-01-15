@@ -34,6 +34,25 @@ export default defineNuxtConfig({
       path: "~/components/base",
       prefix: "Base",
     },
+
+    {
+      path: "~/components/features/navigation",
+      prefix: "Nav",
+    },
+
+    {
+      path: "~/components/features/themeChange",
+      prefix: "Theme",
+    },
+
+    {
+      path: "~/components/features/posts",
+      prefix: "Post",
+    },
+
+    {
+      path: "~/components/features/users",
+      prefix: "User",
+    },
   ],
 });
-

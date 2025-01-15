@@ -2,14 +2,17 @@
 const email = ref("");
 const password = ref("");
 
-function submitForm() {}
+const authStore = useAuthStore();
 </script>
 <template>
+  <AuthFailAlert v-if="authStore.loginError">
+    {{ authStore.loginError }}
+  </AuthFailAlert>
   <BaseAuthForm
-    :is-loading="true"
+    :is-loading="authStore.loginLoading"
     v-model:email="email"
     v-model:password="password"
-    @submit-form="submitForm"
+    @submit-form="authStore.login(email, password)"
     spinner-class="text-primary"
   >
     <template #form-title>
@@ -17,6 +20,6 @@ function submitForm() {}
       <span class="text-primary"> Login</span>
     </template>
 
-    <template #submit-text> login up </template>
+    <template #submit-text> Login </template>
   </BaseAuthForm>
 </template>
