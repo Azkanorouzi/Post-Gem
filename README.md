@@ -4,6 +4,17 @@ Welcome to this **Nuxt.js** project! 🚀 This project was created as a test of 
 
 ---
 
+## 🚨 **Important Note**
+
+To run this project, you need to provide your own **Supabase credentials** or use the ones I have shared here. Without the credentials, the authentication and Supabase functionalities will not work. 🔑
+
+```txt
+SUPABASE_URL="https://frmviyhtjjoqpstcaiqa.supabase.co"
+SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZybXZpeWh0ampvcXBzdGNhaXFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY4NjMyOTMsImV4cCI6MjA1MjQzOTI5M30.UdkxorlkAKb_RYQU3OlzWlf4U0dmjJCWpE75LzR0GAA"
+```
+
+---
+
 ## 🛠️ **Technologies Used**
 
 - **Nuxt.js**: The core framework for building this app.
@@ -13,11 +24,6 @@ Welcome to this **Nuxt.js** project! 🚀 This project was created as a test of 
 - **JSONPlaceholder API**: Used to fetch dummy data for posts and users.
 - **Supabase**: Handles authentication (login, logout, signup) and provides a backend for posts and users.
 
----
-
-## 🚨 **Important Note**
-
-To run this project, you need to provide your own **Supabase credentials** or use the ones I have shared with **Mr. Khosravi**. Without the credentials, the authentication and Supabase functionalities will not work. 🔑
 
 ---
 
