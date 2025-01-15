@@ -17,7 +17,12 @@ const { post } = defineProps<Props>();
     class="bg-base-100 border border-primary"
   >
     <template #card-title>
-      <h2 class="text-xl font-bold">{{ post.title }}</h2>
+      <div class="flex items-center gap-4 text-primary">
+        <div>
+          <Icon name="material-symbols:post" />
+        </div>
+        <h2 class="text-xl font-bold">{{ post.title }}</h2>
+      </div>
     </template>
     <p class="text-gray-600 line-clamp-3">{{ post.body }}</p>
     <template #card-actions>
