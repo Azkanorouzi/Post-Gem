@@ -6,6 +6,7 @@ export default defineNuxtConfig({
         class: "emerald",
       },
     },
+    pageTransition: { name: "page", mode: "out-in" },
   },
   compatibilityDate: "2025-01-14",
   devtools: { enabled: true },
