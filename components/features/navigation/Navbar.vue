@@ -15,7 +15,7 @@ function toggleMenu() {
 }
 </script>
 <template>
-  <nav class="navbar bg-base-100 shadow-lg px-4 sm:px-8">
+  <nav class="navbar bg-base-100 shadow-lg px-4 sm:px-8 fixed z-50">
     <!-- Left Section: Hamburger Menu (Mobile Only) -->
     <div class="flex-1 flex items-center sm:hidden">
       <button @click="toggleMenu" class="btn btn-ghost">

@@ -8,7 +8,7 @@
   <div v-else>
     <NavNavbar />
     <main
-      class="flex justify-center items-center min-h-screen bg-base-200 flex-col"
+      class="flex justify-center items-center min-h-screen bg-base-200 flex-col pt-32"
     >
       <NuxtPage />
     </main>
