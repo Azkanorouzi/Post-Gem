@@ -60,3 +60,20 @@ Thanks to **Daisy UI**, the app's theme can be changed dynamically with just a f
    git clone https://github.com/your-username/your-repo-name.git
    cd your-repo-name
    ```
+
+## 🚀 **How to Run the Project**
+
+1. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+2. **Set Up Supabase**:
+   1- Create a .env file in the root directory.
+   2- Add your Supabase credentials:
+   
+   ```bash
+   SUPABASE_URL=your-supabase-url
+   SUPABASE_KEY=your-supabase-key
+   ```
