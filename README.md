@@ -2,10 +2,6 @@
 
 Welcome to this **Nuxt.js** project! 🚀 This project was created as a test of my skills in **Nuxt.js**, **Pinia**, **Tailwind CSS**, **Daisy UI**, and integrating with external APIs like **JSONPlaceholder** and **Supabase**. It showcases my ability to build a **full-stack application** with **authentication**, **routing**, and **reusable components**. Let me walk you through it! 😊
 
-```txt
-SUPABASE_URL="https://frmviyhtjjoqpstcaiqa.supabase.co"
-SUPABASE_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZybXZpeWh0ampvcXBzdGNhaXFhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzY4NjMyOTMsImV4cCI6MjA1MjQzOTI5M30.UdkxorlkAKb_RYQU3OlzWlf4U0dmjJCWpE75LzR0GAA"
-```
 
 ---
 
